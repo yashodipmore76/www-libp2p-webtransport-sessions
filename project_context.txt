@@ -1,3 +1,20 @@
+Project structure:
+.
+├── README.md
+├── codebase_files.txt
+├── esbuild.js
+├── package-lock.json
+├── package.json
+├── patches
+│   └── @libp2p+webtransport+5.0.40.patch
+├── project_context.txt
+└── src
+    ├── index.html
+    ├── index.js
+    └── utils.js
+
+3 directories, 10 files
+Package.json content:
 {
   "name": "www-libp2p-webtransport-sessions",
   "version": "1.0.0",
